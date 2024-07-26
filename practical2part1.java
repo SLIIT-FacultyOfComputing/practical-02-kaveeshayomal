@@ -17,8 +17,26 @@ public class practical2part1{
 		stringBuilder.append(" " + str3);
 
 		String result= stringBuilder.toString();
+		
+        System.out.println("" +result);
+		System.out.println("Again Enter your first name:");
+		String str4=scanner.nextLine();
 
-		System.out.println("" +result);
+		System.out.println("Again Enter your middle name:");
+		String str5=scanner.nextLine();
+
+		System.out.println("Again Enter your last name:");
+		String str6=scanner.nextLine();
+
+		if(str1.equalsIgnoreCase(str4)){
+			System.out.println("Correct");
+		}
+		else{
+			System.out.println("Incorrect");
+		}
+
+
+		
 
 	
 	
