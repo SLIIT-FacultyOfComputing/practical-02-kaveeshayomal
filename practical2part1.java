@@ -19,6 +19,7 @@ public class practical2part1{
 		String result= stringBuilder.toString();
 		
         System.out.println("" +result);
+
 		System.out.println("Again Enter your first name:");
 		String str4=scanner.nextLine();
 
@@ -34,6 +35,9 @@ public class practical2part1{
 		else{
 			System.out.println("Incorrect");
 		}
+		
+		String replacedStr = result.replace("a","@");
+		String replacedStr = result.replace("e","3");
 
 
 		
